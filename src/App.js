@@ -1,12 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
+export default function Square(){
+    return <button className='square'>X</button>
+};
 
-    </div>
-  );
-}
+// export default function App() {
+//   return (
+//     <></>
+//   );
+// };
 
-export default App;
